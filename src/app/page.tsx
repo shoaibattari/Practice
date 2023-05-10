@@ -1,13 +1,10 @@
-import AddTodos from "@/components/AddTodos";
-
-
 
 
 
 export default function Home() {
   return (
     <div>
-     <AddTodos />
+   This is home page
     </div>
   );
 }

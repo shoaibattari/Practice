@@ -1,8 +1,9 @@
+import AddTodos from '@/components/AddTodos'
 import React from 'react'
 
 const page = () => {
   return (
-    <div> Todos page</div>
+    <div> <AddTodos /></div>
   )
 }
 
