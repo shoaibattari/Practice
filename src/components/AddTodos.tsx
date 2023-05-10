@@ -39,9 +39,9 @@ export default function AddTodos() {
       <div className=" text-3xl  underline text-center mt-5">Todos-List</div>
       <div className="md:grid md:grid-cols-3">
         {Todos.map((e) => (
-          <div className=" py-12 sm:py-16  rounded-3xl border m-5  border-5 text-center bg-gray-300 ">
+          <div key={e}  className=" py-12 sm:py-16  rounded-3xl border m-5  border-5 text-center bg-gray-300 ">
             <div className=" text-5xl font-semibold tracking-tight text-gray-900 sm:text-5xl uppercase hover:text-green-600 hover:scale-125">
-              {e}
+              {e} 
             </div>
           </div>
         ))}
