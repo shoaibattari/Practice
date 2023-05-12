@@ -12,6 +12,8 @@ interface Navbar {
 export const NAV: Navbar[] = [
   { id: 1, name: "Home", link: "/" },
   { id: 2, name: "About", link: "/about" },
+  { id: 5, name: "ContactForm", link: "/ContactForm" },
+
   { id: 3, name: "My Todos", link: "/todos" },
   { id: 4, name: "Contact", link: "https://resume-shoaibmemon.vercel.app/" },
 ];

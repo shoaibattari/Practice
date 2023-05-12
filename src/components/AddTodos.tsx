@@ -3,7 +3,7 @@ import { useState } from "react";
 
 export default function AddTodos() {
   const [Todo, setTodo] = useState("");
-  const [Todos, setTodos] = useState(["todo 1", "todo 2", "todo 3"]);
+  const [Todos, setTodos] = useState(["todo 1", ]);
 
   const addTodo = () => {
     if (Todo != "" && !Todos.includes(Todo)) {
