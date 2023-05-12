@@ -7,7 +7,7 @@ export default function AddTodos() {
 
   const addTodo = () => {
     if (Todo != "" && !Todos.includes(Todo)) {
-      let temp = Todos;
+      let temp = Todos; 
       temp.push(Todo);
       setTodo("");
     }
